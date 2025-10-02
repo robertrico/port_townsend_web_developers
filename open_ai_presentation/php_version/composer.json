@@ -1,0 +1,26 @@
+{
+    "name": "hackbook/open-ai-present",
+    "description": "OpenAI PHP Project for Port Townsend Web Developer Group",
+    "type": "project",
+    "require": {
+        "openai-php/client": "^0.8.5",
+        "guzzlehttp/guzzle": "^7.8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hackbook\\OpenAiPresent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Rico",
+            "email": "robert.m.rico@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

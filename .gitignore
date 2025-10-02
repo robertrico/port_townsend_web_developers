@@ -1,0 +1,21 @@
+
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+**/credentials.json
+**/secrets.json
+
+# Node modules
+node_modules/
+
+# Vendor directories
+vendor/
+
+# Laravel specific
+storage/*.key
+.phpunit.result.cache
